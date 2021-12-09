@@ -1,4 +1,5 @@
 body {
+  background-image: "https://www.acerstore.cl/news/wp-content/uploads/2020/08/p-g79jghpa.jpg.jpeg";
   margin-top: 20px;
   background: #eee;
 }
@@ -20,9 +21,13 @@ p {
 .btn {
   width: 150px;
 }
+#rg {
+  background: rgba(245, 0, 0, 0.3);
+  background-image: url("https://www.w3schools.com/css/img_forest.jpg");
+}
 @media (max-width: 800px) {
-    .col-6 {
-        position: relative;
-        float:none;
-    }
+  .col-6 {
+    position: relative;
+    float: none;
+  }
 }
