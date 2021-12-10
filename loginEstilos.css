@@ -49,8 +49,8 @@ p {
   }
 }
 #form {
-  display: none;
+  display: flex;
 }
 #login {
-  display: flex;
+  display: none;
 }
