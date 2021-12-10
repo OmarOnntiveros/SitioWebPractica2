@@ -1,7 +1,6 @@
 body {
-  background-image: "https://www.acerstore.cl/news/wp-content/uploads/2020/08/p-g79jghpa.jpg.jpeg";
   margin-top: 20px;
-  background: #eee;
+  background-color: brown;
 }
 .container {
   margin-right: auto;
@@ -22,12 +21,31 @@ p {
   width: 150px;
 }
 #rg {
-  background: rgba(245, 0, 0, 0.3);
-  background-image: url("https://www.w3schools.com/css/img_forest.jpg");
+  background-image: url("https://camonapp.com/wp-content/uploads/2017/10/Fondo_Login.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-@media (max-width: 800px) {
-  .col-6 {
+#bg {
+  background: rgba(0, 47, 255, 0.5);
+}
+@media (min-width: 1000px) {
+  #pass {
     position: relative;
-    float: none;
+    margin-top: -10px;
+    padding: auto;
+  }
+}
+@media (max-width: 1000px) {
+  #pass {
+    position: absolute;
+    margin-top: 40px;
+    padding: auto;
+  }
+}
+@media (max-width: 575px) {
+  #pass {
+    position: relative;
+    margin-top: -10px;
+    padding: auto;
   }
 }
