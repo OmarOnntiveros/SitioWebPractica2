@@ -1,11 +1,13 @@
-function ocultarYmostar() {
-    var x = document.getElementById("form");
-    var y = document.getElementById("login");
-    if (x.style.display === "none") {
-        x.style.display = "flex";
-        y.style.display = "none"
-    }else{
-        x.style.display = "none";
-        y.style.display = "flex"
-    }
-}
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+
+signUpButton.addEventListener('click', () => {
+    container.classList.add("right-panel-active");
+});
+
+
+signInButton.addEventListener('click', () => {
+    container.classList.remove("right-panel-active");
+});
